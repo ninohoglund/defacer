@@ -1,7 +1,8 @@
-IFRAME[src^="http://www.facebook.com/"],
-A[href^="http://www.facebook.com/share"],
-DIV[onclick*="facebook"],
-[class*="facebook"] {
+IFRAME[src^="http://www.facebook."],
+A[href*="facebook"],
+[onclick*="facebook"],
+[class*="facebook"],
+[id*="facebook"] {
 display: none !important; 
 visibility: hidden !important;
 }

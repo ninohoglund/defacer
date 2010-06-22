@@ -13,7 +13,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.0</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -44,7 +44,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://babelstudios.se/defacer/updates.plist</string>
 	<key>Website</key>
-	<string>http://babelstudios.se</string>
+	<string>http://babelstudios.se/defacer/</string>
 </dict>
 </plist>
