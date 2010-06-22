@@ -1,0 +1,7 @@
+IFRAME[src^="http://www.facebook.com/"],
+A[href^="http://www.facebook.com/share"],
+DIV[onclick*="facebook"],
+[class*="facebook"] {
+display: none !important; 
+visibility: hidden !important;
+}
