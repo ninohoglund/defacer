@@ -1,0 +1,25 @@
+A[href*="http://www.facebook.com/share.php"],
+IFRAME[src^="http://www.facebook."],
+[onclick*="facebook"],
+[class*="facebook"],
+[class*="login-fb"],
+[class*="loginFB"],
+DIV[class*="fbshare"],
+A[title*="facebook"],
+[id*="facebook"],
+DIV[id*="fbc-recommend"] {
+	display: none !important;
+	/* debug: background: rgba(255, 0, 0, 0.25) !important; */
+}
+
+/* EXCEPTIONS */
+
+/* Comments on gawker sites */
+DIV[class*="facebook_enabled"] { 
+	display: block !important; 
+	/* debug: background: rgba(0, 0, 255, 0.25) !important; */
+}
+
+.blocked-content {
+	background: rgba(0, 0, 255, 0.25) !important;
+}
