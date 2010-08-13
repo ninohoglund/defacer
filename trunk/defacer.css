@@ -1,5 +1,6 @@
 A[href*="http://www.facebook.com/share.php"],
 IFRAME[src^="http://www.facebook."],
+IFRAME[src^="http://www.connect.facebook."],
 [onclick*="facebook"],
 [class*="facebook"],
 [class*="login-fb"],
