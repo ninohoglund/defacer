@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -22,6 +22,8 @@
 		<array>
 			<string>http://*.facebook.com/*</string>
 			<string>https://*.facebook.com/*</string>
+			<string>http://*.emusic.com/*</string>
+			<string>https://*.emusic.com/*</string>
 		</array>
 		<key>Scripts</key>
 		<dict/>
