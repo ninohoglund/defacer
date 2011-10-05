@@ -1,19 +1,28 @@
-A[href*="http://www.facebook.com/share.php"],
+A[href*="http://www.facebook.com/share"],
 IFRAME[src^="http://www.facebook."],
 IFRAME[src^="http://www.connect.facebook."],
 [onclick*="facebook"],
 [class*="facebook"],
 [class*="login-fb"],
 [class*="loginFB"],
+[class*="fb_share"],
 DIV[class*="fbshare"],
 A[title*="facebook"],
+[onclick*="FB.ui"], 
 [id*="facebook"],
 DIV[id*="fbc-recommend"] {
 	display: none !important;
-	/* debug: background: rgba(255, 0, 0, 0.25) !important; */
+	/* background: rgba(255, 0, 0, 0.25) !important; */
 }
 
 /* EXCEPTIONS */
+
+/* Articles tagged with "facebook" on Mashable */
+
+DIV[class*="-facebook"] { 
+	display: block !important; 
+	/* debug: background: rgba(0, 0, 255, 0.25) !important; */
+}
 
 /* Comments on gawker sites */
 DIV[class*="facebook_enabled"] { 
